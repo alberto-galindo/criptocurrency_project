@@ -19,29 +19,6 @@ As shown in the repository, the project is organized into two main functional fi
   * `proyecto_divisas.py`: The core application containing the Dash layout, Kraken API connection, and indicator logic.
   * `unit_test.py`: A comprehensive test suite to ensure mathematical accuracy and API stability.
 
-## 🛠️ Installation & Setup
-
-1.  **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
-    ```
-
-2.  **Install dependencies:**
-
-    ```bash
-    pip install krakenex pykrakenapi plotly dash dash-bootstrap-components pandas pytest
-    ```
-
-3.  **Run the application:**
-
-    ```bash
-    python proyecto_divisas.py
-    ```
-
-    The dashboard will be available at `http://127.0.0.1:8050/`.
-
 ## 🧪 Unit Testing
 
 Reliability is crucial in financial applications. This project uses `pytest` to validate core logic:
